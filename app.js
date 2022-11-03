@@ -7,5 +7,5 @@ const indexRoute = require("./routes/index");
 app.use("/", indexRoute);
 
 app.listen(port, () => {
-  console.log(`Working!`);
+  console.log(`Example app listening on port ${port}`);
 });
